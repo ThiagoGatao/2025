@@ -265,4 +265,56 @@ footer {
     .gallery-container {
         grid-template-columns: 1fr;
     }
+
+/* MODOS DE ACESSIBILIDADE */
+.modo-escuro {
+    background-color: #121212 !important;
+    color: #f1f1f1 !important;
+}
+
+.modo-escuro header,
+.modo-escuro footer,
+.modo-escuro .content-section,
+.modo-escuro .artist-card {
+    background-color: #1e1e1e !important;
+    color: #f1f1f1 !important;
+    border-color: #333 !important;
+}
+
+.modo-escuro .btn,
+.modo-escuro .social-icon {
+    background-color: #3498db !important;
+    color: white !important;
+}
+
+.fonte-grande {
+    font-size: 1.2em !important;
+}
+
+.fonte-pequena {
+    font-size: 0.9em !important;
+}
+
+/* Barra de acessibilidade */
+.acessibilidade {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-left: auto;
+}
+
+.acessibilidade button {
+    background: #2c3e50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: all 0.3s;
+}
+
+.acessibilidade button:hover {
+    background: #3498db;
+}
 }
